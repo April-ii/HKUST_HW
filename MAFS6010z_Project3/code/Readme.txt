@@ -1,0 +1,3 @@
+The strategy initially allocates weights through 'Asset Allocation', assigning different starting capital to each asset based on these weights for individual trading.
+
+In 'PPO with BTC', 'PPO with ETH', 'PPO with XRP', and 'PPO with LTC', we first constructed a series of features and used OpenAI's gym to create a simulated trading environment, considering issues like maximum trading volume and transaction fees. Simultaneously, a PPO algorithm based on the LSTM Policy Network was trained and stored in a zip file. These .py files also underwent backtesting, with the results stored in CSV files. They are integrated and visualized in the Backtest.py file. The strategy.py mainly serves the demo requirements and should not be used as a basis for backtesting.
